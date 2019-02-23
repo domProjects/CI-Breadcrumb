@@ -37,7 +37,6 @@ class Test_breadcrumb extends CI_Controller {
 		$data['breadcrumb_bootstrap_style'] = $this->breadcrumb->generate();
 
 
-
 		// Load view test_breadcrumb.php page
 		$this->load->view('test_breadcrumb', $data);
 	}
