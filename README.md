@@ -3,9 +3,9 @@ Breadcrumb library for CodeIgniter 3.x.x
 
 ## Installation
 ### CodeIgniter
-1. Téléchargez [CodeIgniter 3.x.x](https://codeigniter.com/download)
-1. Décompressez l'archive
-1. Copiez le contenu de l'archive décompressée à la racine de votre site ou copiez le répertoire de l'archive décompressée à la racine de votre site
+1. Download [CodeIgniter 3.x.x](https://codeigniter.com/download)
+1. Unpack the archive
+1. Copy the contents of the uncompressed archive to the root of your site or copy the directory of the uncompressed archive to the root of your site
 
 ```
 ./
@@ -22,9 +22,9 @@ OR
   |_ index.php
 ```
 ### Librairie CI-Breadcrumb
-1. Téléchargez l'archive
-1. Décompressez l'archive
-1. Copiez le contenu de l'archive décompressée dans votre site
+1. Download the archive
+1. Unpack the archive
+1. Copy the contents of the uncompressed archive to your site
 
 ```
 ./
@@ -55,7 +55,7 @@ OR
 
 ## Utilisation
 ### Folder controllers
-Contenu du fichier de votre controlleur avec le style par défaut:
+Your controller file contents with the default style:
 ```php
 // Load library breadcrumb
 $this->load->library('breadcrumb');
@@ -71,7 +71,7 @@ $this->breadcrumb->add_item($breadcrumb_items);
 // Generate breadcrumb
 $this->data['content_breadcrumb'] = $this->breadcrumb->generate();
 ```
-Avec une customisation du style (pour l'exemple avec Bootstrap)
+With a style customization (for the example with Bootstrap):
 ```
 // Load library breadcrumb
 $this->load->library('breadcrumb');
@@ -92,13 +92,13 @@ $data['breadcrumb_bootstrap_style'] = $this->breadcrumb->generate();
 ```
 
 ### Folder views
-Contenu du fichier `test_breadcrumb.php` :
+File contents `test_breadcrumb.php` :
 ```php
 <?php echo $content_breadcrumb; ?>
 ```
 
 ## Result
-### Default style (sans mise en page)
+### Default style (without style)
 ```
 1. Dashbord
 2. Users
