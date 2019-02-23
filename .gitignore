@@ -1,0 +1,9 @@
+
+.htaccess
+*.html
+index.php
+system/
+application/config/
+application/views/errors/
+application/controllers/Welcome.php
+application/views/welcome_message.php
